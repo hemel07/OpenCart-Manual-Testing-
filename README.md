@@ -10,3 +10,25 @@ Ensure a stable, secure, and high-performing platform for online businesses.
 Enhance the shopping experience for end users with an intuitive and error-free interface.
 Provide developers with valuable insights to refine and optimize OpenCart’s functionality.
 This repository serves as a vital resource for SQA professionals, developers, and OpenCart users committed to maintaining and improving e-commerce quality. Contributions and feedback are highly encouraged to further enhance the platform’s capabilities.
+
+Working procedure:
+Go to: https://www.opencart.com/index.php?route=cms/demo
+
+or
+
+Opencart Build Deployment/ Installation
+1) Opencart download location:
+https://www.opencart.com/index.php?route=cms/download
+2) XAMPP for apache, mysal, and php installation.
+(Recommended versions: 7.3.25 / PHP 7.3.25)
+Download Link: https://www.apachefriends.org/download.html
+3)Copy opencart folder(Step1) in to below location.
+C: \xampp\htdocs
+4) Rename the file to opencart
+5)Go to Cilxampp|htdocs\opencart\upload
+Rename file 'config-dist.php' to 'conlia.php'
+6)Go to C:\xampp\htdocs\opencart\upload\admin
+Rename file 'config-dist.php' to 'config.php'
+7)Connect to the database and create DB.
+DB Access URL: http://localhost/phpmyadmin/
+Create new database 'openshop' (Refer the screenshots below to create new Database in MySQL)
